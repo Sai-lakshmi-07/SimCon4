@@ -1,3 +1,4 @@
+import Math.*;
 public class Simple {
     double p;
     double t;
@@ -8,9 +9,13 @@ public class Simple {
         t=y;
         r=z;
     }
-    double display()
+    double simple_display()
     {
         return (p*t*r)/100;
+    }
+    double compound_display(int n)
+    {
+        return (p*Math.pow((1+(r/n)),(n*t)))-p;
     }
 
 }
