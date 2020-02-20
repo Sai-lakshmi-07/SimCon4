@@ -1,4 +1,3 @@
-import Math.*;
 public class Simple {
     double p;
     double t;
